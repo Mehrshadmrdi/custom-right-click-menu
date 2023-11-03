@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Farro:wght@300&family=Glory:ital,wght@1,800&family=Jost:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&family=Noto+Sans+Arabic:wght@300&family=Poppins:wght@200;300;400&family=Rowdies:wght@700&family=Vazirmatn:wght@200&family=Yusei+Magic&display=swap');
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(89, 131, 252, 1);
+    background-image: linear-gradient(90deg, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%);
+    
+}
+
+
+.container{
+    width: 300px;
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+
+.container .menu{
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+
+.menu .item{
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.menu .item:hover{
+    background-color: #f2f2f2;
+}
+
+
+.menu .item i{
+    padding-right: 10px;
+    
+}
+
+
+.menu .setting{
+    border-top: 1px solid #ccc ;
+    margin:10px 0;
+    padding-top: 0px;
+}

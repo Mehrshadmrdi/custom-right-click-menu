@@ -20,9 +20,10 @@ document.addEventListener('contextmenu', (e)=>{
 
     if(x > winWidth - cmWidth - subMenu.offsetWidth){
         subMenu.style.left = '-170px'
-    }else{
-        subMenu.style.left = '260px'
     }
+    else{
+        subMenu.style.left = '260px'
+    };
 
 
     contextMenu.style.left = `${x}px`
